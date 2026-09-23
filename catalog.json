@@ -1,0 +1,28 @@
+{
+  "packs": [
+    {
+      "code": "IGLESIA",
+      "packId": "pack-iglesia",
+      "version": 2,
+      "base": "https://raw.githubusercontent.com/micoach-agustin/am-drop/main/pack-iglesia/",
+      "files": [
+        "manifest.json",
+        "art/thumbs/thumb_vices_01.png",
+        "art/cards/card_vice_pride_01.png",
+        "art/cards/card_vice_greed_01.png",
+        "art/cards/card_vice_whim_01.png",
+        "art/cards/card_vice_wrath_01.png",
+        "art/cards/card_vice_gluttony_01.png",
+        "art/cards/card_vice_envy_01.png",
+        "art/cards/card_vice_sloth_01.png",
+        "art/cards/card_jesus_humility_01.png",
+        "art/cards/card_jesus_generosity_01.png",
+        "art/cards/card_jesus_tenderness_01.png",
+        "art/cards/card_jesus_peace_01.png",
+        "art/cards/card_jesus_share_01.png",
+        "art/cards/card_jesus_kindness_01.png",
+        "art/cards/card_jesus_help_01.png"
+      ]
+    }
+  ]
+}
