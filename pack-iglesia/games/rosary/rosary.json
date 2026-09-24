@@ -1,12 +1,20 @@
 {
   "id": "rosary",
-  "version": 1,
+  "version": 2,
   "modes": ["first_decade", "mystery"],
   "defaultMode": "first_decade",
   "lines": {
     "welcome_decade": {
       "es": "Hoy rezaremos una decena juntos.",
       "en": "Today we will pray one decade together."
+    },
+    "thanks": {
+      "es": "Damos gracias a Dios.",
+      "en": "We give thanks to God."
+    },
+    "tap_candle": {
+      "es": "Toca la vela.",
+      "en": "Tap the candle."
     },
     "mystery_annunciation": {
       "es": "El ángel Gabriel visitó a María. Dios tenía una misión muy especial para ella. Vamos a rezar diez Ave Marías mientras recordamos este momento.",
@@ -28,35 +36,43 @@
       "es": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.",
       "en": "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen."
     },
-    "echo_invite": {
-      "es": "Ahora tú.",
-      "en": "Now you."
-    },
     "rose_for_mary": {
       "es": "Esta rosa es para María.",
       "en": "This rose is for Mary."
     }
   },
+  "tokens": [
+    { "id": "heart", "art": "heart_pray_01", "symbol": "heart.fill", "title": { "es": "Corazón", "en": "Heart" } },
+    { "id": "candle", "art": "candle_on_01", "symbol": "flame.fill", "title": { "es": "Vela", "en": "Candle" } },
+    { "id": "flower", "art": "flower_rosary_01", "symbol": "leaf.fill", "title": { "es": "Flor", "en": "Flower" } },
+    { "id": "benedict", "art": "cross_benedict_01", "fallbackArt": "rosary_cross_01", "symbol": "seal.fill", "title": { "es": "San Benito", "en": "St Benedict" } },
+    { "id": "cross", "art": "rosary_cross_01", "symbol": "plus", "title": { "es": "Cruz", "en": "Cross" } },
+    { "id": "star", "art": "star_soft_01", "symbol": "star.fill", "title": { "es": "Estrella", "en": "Star" } },
+    { "id": "medal", "art": "rosary_medal_01", "symbol": "heart.circle.fill", "title": { "es": "Medalla", "en": "Medal" } },
+    { "id": "dove", "art": "dove_spirit_01", "fallbackArt": "star_soft_01", "symbol": "sparkle", "title": { "es": "Paloma", "en": "Dove" } },
+    { "id": "rose", "art": "rose_gift_01", "symbol": "leaf.fill", "title": { "es": "Rosa", "en": "Rose" } },
+    { "id": "bracelet", "art": "bracelet_heart_01", "fallbackArt": "heart_pray_01", "symbol": "circle.circle.fill", "title": { "es": "Pulsera", "en": "Bracelet" } }
+  ],
   "mystery": {
     "id": "annunciation",
     "title": { "es": "La Anunciación", "en": "The Annunciation" },
     "scene": "scene_annunciation_01",
     "voice": "mystery_annunciation",
-    "interaction": "flower_to_mary"
+    "interaction": "listen_only"
   },
   "decade": [
     { "prayer": "sign", "interaction": "listen_only", "voice": "sign_of_cross" },
-    { "prayer": "our_father", "interaction": "echo_phrase", "voice": "our_father" },
-    { "prayer": "hail_mary", "interaction": "tap_star", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "flower_to_mary", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "listen_only", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "light_candle", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "tap_heart", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "listen_only", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "follow_path", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "flower_to_mary", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "tap_star", "voice": "hail_mary" },
-    { "prayer": "hail_mary", "interaction": "observe_scene", "voice": "hail_mary" },
+    { "prayer": "our_father", "interaction": "listen_only", "voice": "our_father" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "heart" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "candle" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "flower" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "benedict" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "cross" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "star" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "medal" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "dove" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "rose" },
+    { "prayer": "hail_mary", "interaction": "place_token", "voice": "hail_mary", "token": "bracelet" },
     { "prayer": "glory", "interaction": "listen_only", "voice": "glory" }
   ]
 }

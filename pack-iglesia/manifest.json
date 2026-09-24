@@ -1,6 +1,6 @@
 {
   "packId": "pack-iglesia",
-  "version": 3,
+  "version": 4,
   "code": "IGLESIA",
   "title": { "es": "Iglesia", "en": "Church" },
   "games": [
@@ -37,7 +37,7 @@
       "title": { "es": "Mi pequeño Rosario", "en": "My Little Rosary" },
       "badge": { "es": "Una decena", "en": "One decade" },
       "thumbnail": "thumb_rosary_01",
-      "howTo": { "es": "Una flor para María", "en": "A flower for Mary" },
+      "howTo": { "es": "Llévalo a la bolita", "en": "Take it to the bead" },
       "accent": "#B9AED8"
     }
   ]

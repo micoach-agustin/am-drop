@@ -3,7 +3,7 @@
     {
       "code": "IGLESIA",
       "packId": "pack-iglesia",
-      "version": 3,
+      "version": 4,
       "base": "https://raw.githubusercontent.com/micoach-agustin/am-drop/main/pack-iglesia/",
       "files": [
         "manifest.json",
@@ -40,7 +40,10 @@
         "art/scenes/scene_mary_roses_01.png",
         "art/thumbs/thumb_rosary_01.png",
         "art/thumbs/thumb_vices_01.png",
-        "games/rosary/rosary.json"
+        "games/rosary/rosary.json",
+        "art/rosary/cross_benedict_01.png",
+        "art/rosary/dove_spirit_01.png",
+        "art/rosary/bracelet_heart_01.png"
       ]
     }
   ]
