@@ -1,6 +1,6 @@
 {
   "packId": "pack-iglesia",
-  "version": 4,
+  "version": 5,
   "code": "IGLESIA",
   "title": { "es": "Iglesia", "en": "Church" },
   "games": [

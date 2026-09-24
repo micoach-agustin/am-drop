@@ -3,7 +3,7 @@
     {
       "code": "IGLESIA",
       "packId": "pack-iglesia",
-      "version": 4,
+      "version": 5,
       "base": "https://raw.githubusercontent.com/micoach-agustin/am-drop/main/pack-iglesia/",
       "files": [
         "manifest.json",
