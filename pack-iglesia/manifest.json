@@ -1,6 +1,6 @@
 {
   "packId": "pack-iglesia",
-  "version": 8,
+  "version": 9,
   "code": "IGLESIA",
   "title": { "es": "Iglesia", "en": "Church" },
   "games": [
@@ -39,6 +39,24 @@
       "thumbnail": "thumb_rosary_01",
       "howTo": { "es": "Llévalo a la bolita", "en": "Take it to the bead" },
       "accent": "#B9AED8"
+    },
+    {
+      "id": "caminos",
+      "engine": "arcade",
+      "title": { "es": "Caminos", "en": "Paths" },
+      "badge": { "es": "5 historias", "en": "5 stories" },
+      "thumbnail": "thumb_caminos_01",
+      "howTo": { "es": "Elige y corre", "en": "Pick and run" },
+      "accent": "#6FA7C4"
+    },
+    {
+      "id": "taller",
+      "engine": "taller",
+      "title": { "es": "El taller de José", "en": "Joseph's Workshop" },
+      "badge": { "es": "silla y mesa", "en": "chair and table" },
+      "thumbnail": "thumb_taller_01",
+      "howTo": { "es": "Mete el tronco", "en": "Put the log in" },
+      "accent": "#E9D5AE"
     }
   ]
 }

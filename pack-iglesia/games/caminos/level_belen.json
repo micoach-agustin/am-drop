@@ -1,0 +1,91 @@
+{
+  "id": "level_belen",
+  "name": "Camino a Belén",
+  "theme": "belen",
+  "targetDurationSec": 80,
+  "worldWidth": 8600,
+  "groundY": 160,
+  "groundTile": "tile_ground_sand_01",
+  "pitTile": "tile_pit_water_01",
+  "background": "background_belen_01",
+  "hudIcon": "item_coin_01",
+  "hudMode": "mixed",
+  "nextLevelId": "level_samaritano",
+  "starThresholds": [12, 20],
+  "starRule": "gifts",
+  "cameraMode": "star",
+  "starTrailArt": "star_bethlehem_trail_01",
+  "starFixedArt": "star_bethlehem_fixed_01",
+  "projectileKind": "default",
+  "playerArt": "magus_run_01",
+  "playerStart": { "x": 160, "y": 210 },
+  "goal": { "x": 7880, "y": 160, "width": 260, "height": 220, "art": "inn_bethlehem_01" },
+  "checkpoints": [
+    { "id": "cp1", "x": 3600, "y": 190 },
+    { "id": "cp2", "x": 6000, "y": 190 }
+  ],
+  "coins": [
+    { "x": 380, "y": 210, "kind": "coin" },
+    { "x": 500, "y": 210, "kind": "coin" },
+    { "x": 620, "y": 210, "kind": "coin" },
+    { "x": 900, "y": 210, "kind": "coin" },
+    { "x": 1980, "y": 210, "kind": "coin" },
+    { "x": 2480, "y": 328, "kind": "coin", "choiceSetId": "b1" },
+    { "x": 2580, "y": 328, "kind": "coin", "choiceSetId": "b1" },
+    { "x": 2680, "y": 328, "kind": "coin", "choiceSetId": "b1" },
+    { "x": 2480, "y": 210, "kind": "coin", "choiceSetId": "b1" },
+    { "x": 3200, "y": 210, "kind": "diamond1" },
+    { "x": 3800, "y": 210, "kind": "coin" },
+    { "x": 4300, "y": 328, "kind": "diamond1", "choiceSetId": "b2" },
+    { "x": 4300, "y": 210, "kind": "coin", "choiceSetId": "b2" },
+    { "x": 4400, "y": 210, "kind": "coin", "choiceSetId": "b2" },
+    { "x": 5000, "y": 210, "kind": "coin" },
+    { "x": 5200, "y": 210, "kind": "coin" },
+    { "x": 5480, "y": 210, "kind": "coin" },
+    { "x": 5620, "y": 210, "kind": "coin" },
+    { "x": 6400, "y": 210, "kind": "coin" },
+    { "x": 6540, "y": 210, "kind": "coin" },
+    { "x": 7000, "y": 210, "kind": "diamond1" },
+    { "x": 7580, "y": 210, "kind": "coin" },
+    { "x": 7700, "y": 210, "kind": "coin" }
+  ],
+  "coinArcs": [
+    { "x": 1472, "y": 246, "width": 74, "count": 2 },
+    { "x": 5780, "y": 248, "width": 82, "count": 2 },
+    { "x": 7380, "y": 248, "width": 82, "count": 2 }
+  ],
+  "gaps": [
+    { "x": 1450, "width": 118, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" },
+    { "x": 5750, "width": 118, "respawn": "cp1", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" },
+    { "x": 7350, "width": 120, "respawn": "cp2", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
+  ],
+  "signs": [
+    { "x": 2100, "upper": "coin", "lower": "coin" },
+    { "x": 3920, "upper": "diamond1", "lower": "coin" }
+  ],
+  "rewardBoxes": [
+    { "x": 1680, "y": 292, "reward": "gold", "art": "magi_box_01" },
+    { "x": 3720, "y": 292, "reward": "incense", "art": "magi_box_01" },
+    { "x": 6100, "y": 292, "reward": "myrrh", "art": "magi_box_01" }
+  ],
+  "enemies": [
+    { "type": "snake", "x": 2800, "y": 186, "patrol": 160 },
+    { "type": "snake", "x": 4100, "y": 186, "patrol": 140, "minAge": 4 },
+    { "type": "snake", "x": 4680, "y": 186, "patrol": 130 },
+    { "type": "snake", "x": 6700, "y": 186, "patrol": 130, "minAge": 5 }
+  ],
+  "platforms": [
+    { "x": 2420, "y": 286, "width": 300, "height": 22 },
+    { "x": 4240, "y": 286, "width": 160, "height": 22 }
+  ],
+  "learningMoments": [
+    { "type": "sequencePlatforms", "x": 3000, "y": 300 }
+  ],
+  "goalBonus": { "coins": 50, "gems": 25, "ifPerfect": false, "ifGifts": true },
+  "ageModifiers": {
+    "3": { "playerSpeedMultiplier": 0.9, "enemySpeedMultiplier": 0.8, "gapWidthMultiplier": 0.85, "hintDurationSec": 2.5 },
+    "4": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0, "hintDurationSec": 2.0 },
+    "5": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.0, "hintDurationSec": 1.5 },
+    "6": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.05, "hintDurationSec": 1.0 }
+  }
+}

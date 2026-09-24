@@ -1,0 +1,80 @@
+{
+  "id": "level_eden",
+  "name": "El Jardín del Edén",
+  "theme": "eden",
+  "targetDurationSec": 55,
+  "worldWidth": 6200,
+  "groundY": 160,
+  "groundTile": "tile_ground_grass_01",
+  "pitTile": "tile_pit_water_01",
+  "background": "background_eden_01",
+  "hudIcon": "item_coin_01",
+  "hudMode": "mixed",
+  "nextLevelId": "level_belen",
+  "starThresholds": [8, 14],
+  "projectileKind": "default",
+  "playerArt": "adam_run_01",
+  "playerStart": { "x": 160, "y": 210 },
+  "goal": { "x": 5200, "y": 160, "width": 280, "height": 260, "art": "tree_eden_01" },
+  "checkpoints": [{ "id": "cp1", "x": 3180, "y": 190 }],
+  "coins": [
+    { "x": 380, "y": 210, "kind": "coin" },
+    { "x": 500, "y": 210, "kind": "coin" },
+    { "x": 620, "y": 210, "kind": "coin" },
+    { "x": 980, "y": 210, "kind": "coin" },
+    { "x": 1420, "y": 210, "kind": "coin" },
+    { "x": 2480, "y": 328, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2580, "y": 328, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2680, "y": 328, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2480, "y": 210, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2580, "y": 210, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 3360, "y": 210, "kind": "diamond1" },
+    { "x": 3720, "y": 210, "kind": "coin" },
+    { "x": 4180, "y": 210, "kind": "coin" },
+    { "x": 4680, "y": 210, "kind": "coin" },
+    { "x": 4780, "y": 210, "kind": "coin" }
+  ],
+  "coinArcs": [
+    { "x": 1700, "y": 246, "width": 74, "count": 2 },
+    { "x": 4520, "y": 248, "width": 80, "count": 2 }
+  ],
+  "gaps": [
+    { "x": 1680, "width": 108, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" },
+    { "x": 4490, "width": 110, "respawn": "cp1", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
+  ],
+  "signs": [
+    { "x": 2220, "upper": "coin", "lower": "coin" }
+  ],
+  "rewardBoxes": [
+    { "x": 1960, "y": 292, "reward": "coins3" }
+  ],
+  "enemies": [
+    { "type": "apple_snake", "x": 1080, "y": 186, "patrol": 90 },
+    { "type": "apple_snake", "x": 1480, "y": 186, "patrol": 100 },
+    { "type": "apple_snake", "x": 2140, "y": 186, "patrol": 100 },
+    { "type": "apple_snake", "x": 2680, "y": 186, "patrol": 110 },
+    { "type": "apple_snake", "x": 3120, "y": 186, "patrol": 100 },
+    { "type": "apple_snake", "x": 3480, "y": 186, "patrol": 110 },
+    { "type": "apple_snake", "x": 3820, "y": 186, "patrol": 120, "minAge": 4 },
+    { "type": "apple_snake", "x": 4080, "y": 186, "patrol": 110, "minAge": 4 },
+    { "type": "apple_snake", "x": 4320, "y": 186, "patrol": 100, "minAge": 5 }
+  ],
+  "platforms": [
+    { "x": 2420, "y": 286, "width": 300, "height": 22 }
+  ],
+  "decorations": [
+    { "kind": "flower", "x": 300, "y": 160 },
+    { "kind": "flower", "x": 740, "y": 160 },
+    { "kind": "lamb", "x": 860, "y": 160 },
+    { "kind": "flower", "x": 2100, "y": 160 },
+    { "kind": "flower", "x": 3040, "y": 160 },
+    { "kind": "lamb", "x": 4600, "y": 160 },
+    { "kind": "flower", "x": 4740, "y": 160 }
+  ],
+  "ageModifiers": {
+    "3": { "playerSpeedMultiplier": 0.9, "enemySpeedMultiplier": 0.75, "gapWidthMultiplier": 0.85, "hintDurationSec": 2.5 },
+    "4": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0, "hintDurationSec": 2.0 },
+    "5": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.0, "hintDurationSec": 1.5 },
+    "6": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.05, "hintDurationSec": 1.0 }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "level_jose",
+  "name": "José en Egipto",
+  "theme": "jose",
+  "targetDurationSec": 88,
+  "worldWidth": 9800,
+  "groundY": 160,
+  "groundTile": "tile_ground_grass_01",
+  "pitTile": "tile_pit_water_01",
+  "background": "background_egypt_01",
+  "hudIcon": "maize_icon_01",
+  "hudMode": "mixed",
+  "nextLevelId": "level_borriquita",
+  "starRule": "maize",
+  "maizeGoal": 10,
+  "surplusReward": { "coinsPerExtra": 5, "gemsPerExtra": 1 },
+  "projectileKind": "none",
+  "playerArt": "joseph_run_01",
+  "playerStart": { "x": 160, "y": 210 },
+  "goal": { "x": 9000, "y": 160, "width": 280, "height": 240, "art": "granary_01" },
+  "checkpoints": [{ "id": "cp1", "x": 5200, "y": 190 }],
+  "coins": [
+    { "x": 380, "y": 210, "kind": "maize" },
+    { "x": 500, "y": 210, "kind": "maize" },
+    { "x": 620, "y": 210, "kind": "maize" },
+    { "x": 2200, "y": 328, "kind": "maize", "choiceSetId": "b1" },
+    { "x": 2300, "y": 328, "kind": "maize", "choiceSetId": "b1" },
+    { "x": 2400, "y": 328, "kind": "maize", "choiceSetId": "b1" },
+    { "x": 2200, "y": 210, "kind": "maize", "choiceSetId": "b1" },
+    { "x": 3600, "y": 328, "kind": "maize", "choiceSetId": "b2" },
+    { "x": 3700, "y": 328, "kind": "maize", "choiceSetId": "b2" },
+    { "x": 3600, "y": 210, "kind": "maize", "choiceSetId": "b2" },
+    { "x": 3700, "y": 210, "kind": "maize", "choiceSetId": "b2" },
+    { "x": 3800, "y": 210, "kind": "maize", "choiceSetId": "b2" },
+    { "x": 4800, "y": 328, "kind": "maize", "choiceSetId": "b3" },
+    { "x": 4900, "y": 328, "kind": "maize", "choiceSetId": "b3" },
+    { "x": 4800, "y": 210, "kind": "maize", "choiceSetId": "b3" },
+    { "x": 4900, "y": 210, "kind": "maize", "choiceSetId": "b3" },
+    { "x": 5000, "y": 210, "kind": "maize", "choiceSetId": "b3" },
+    { "x": 6100, "y": 328, "kind": "maize", "choiceSetId": "b4" },
+    { "x": 6200, "y": 328, "kind": "maize", "choiceSetId": "b4" },
+    { "x": 6300, "y": 328, "kind": "maize", "choiceSetId": "b4" },
+    { "x": 6100, "y": 210, "kind": "maize", "choiceSetId": "b4" }
+  ],
+  "gaps": [
+    { "x": 1600, "width": 110, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
+  ],
+  "signs": [
+    { "x": 1860, "upper": "maize3", "lower": "maize1" },
+    { "x": 3280, "upper": "maize2", "lower": "maize3" },
+    { "x": 4480, "upper": "maize2", "lower": "maize3" },
+    { "x": 5780, "upper": "maize3", "lower": "maize1" }
+  ],
+  "rewardBoxes": [],
+  "enemies": [],
+  "platforms": [
+    { "x": 2140, "y": 246, "width": 320, "height": 22 },
+    { "x": 3540, "y": 246, "width": 220, "height": 22 },
+    { "x": 4740, "y": 246, "width": 220, "height": 22 },
+    { "x": 6040, "y": 246, "width": 320, "height": 22 }
+  ],
+  "npcs": [
+    { "id": "granaryA", "type": "granary", "x": 6800 },
+    { "id": "q1", "type": "queue", "x": 7200 },
+    { "id": "q2", "type": "queue", "x": 7360 },
+    { "id": "q3", "type": "queue", "x": 7520 },
+    { "id": "q4", "type": "queue", "x": 7680 },
+    { "id": "q5", "type": "queue", "x": 7840 },
+    { "id": "q6", "type": "queue", "x": 8000 },
+    { "id": "q7", "type": "queue", "x": 8160 },
+    { "id": "q8", "type": "queue", "x": 8320 },
+    { "id": "q9", "type": "queue", "x": 8480 },
+    { "id": "q10", "type": "queue", "x": 8640 }
+  ],
+  "ageModifiers": {
+    "3": { "playerSpeedMultiplier": 0.9, "gapWidthMultiplier": 0.85, "hintDurationSec": 2.5 },
+    "4": { "playerSpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0, "hintDurationSec": 2.0 },
+    "5": { "playerSpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0, "hintDurationSec": 1.5 },
+    "6": { "playerSpeedMultiplier": 1.0, "gapWidthMultiplier": 1.05, "hintDurationSec": 1.0 }
+  }
+}
