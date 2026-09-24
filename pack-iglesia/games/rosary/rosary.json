@@ -1,6 +1,6 @@
 {
   "id": "rosary",
-  "version": 3,
+  "version": 4,
   "modes": ["first_decade", "mystery"],
   "defaultMode": "first_decade",
   "lines": {
@@ -31,6 +31,14 @@
     "hail_mary": {
       "es": "Dios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. Amén.",
       "en": "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
+    },
+    "hail_mary_1": {
+      "es": "Dios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.",
+      "en": "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus."
+    },
+    "hail_mary_2": {
+      "es": "Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. Amén.",
+      "en": "Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
     },
     "glory": {
       "es": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.",
