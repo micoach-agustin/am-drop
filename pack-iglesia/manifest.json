@@ -1,6 +1,6 @@
 {
   "packId": "pack-iglesia",
-  "version": 2,
+  "version": 3,
   "code": "IGLESIA",
   "title": { "es": "Iglesia", "en": "Church" },
   "games": [
@@ -30,6 +30,15 @@
         { "id": "kindness", "art": "card_jesus_kindness_01", "title": { "es": "Bondad", "en": "Kindness" } },
         { "id": "help", "art": "card_jesus_help_01", "title": { "es": "Ayuda", "en": "Help" } }
       ]
+    },
+    {
+      "id": "rosary",
+      "engine": "rosary",
+      "title": { "es": "Mi pequeño Rosario", "en": "My Little Rosary" },
+      "badge": { "es": "Una decena", "en": "One decade" },
+      "thumbnail": "thumb_rosary_01",
+      "howTo": { "es": "Una flor para María", "en": "A flower for Mary" },
+      "accent": "#B9AED8"
     }
   ]
 }

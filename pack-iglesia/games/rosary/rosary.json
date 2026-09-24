@@ -1,0 +1,62 @@
+{
+  "id": "rosary",
+  "version": 1,
+  "modes": ["first_decade", "mystery"],
+  "defaultMode": "first_decade",
+  "lines": {
+    "welcome_decade": {
+      "es": "Hoy rezaremos una decena juntos.",
+      "en": "Today we will pray one decade together."
+    },
+    "mystery_annunciation": {
+      "es": "El ángel Gabriel visitó a María. Dios tenía una misión muy especial para ella. Vamos a rezar diez Ave Marías mientras recordamos este momento.",
+      "en": "The angel Gabriel visited Mary. God had a very special mission for her. We will pray ten Hail Marys as we remember this moment."
+    },
+    "sign_of_cross": {
+      "es": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+      "en": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+    },
+    "our_father": {
+      "es": "Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación, y líbranos del mal. Amén.",
+      "en": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."
+    },
+    "hail_mary": {
+      "es": "Dios te salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. Amén.",
+      "en": "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
+    },
+    "glory": {
+      "es": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.",
+      "en": "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen."
+    },
+    "echo_invite": {
+      "es": "Ahora tú.",
+      "en": "Now you."
+    },
+    "rose_for_mary": {
+      "es": "Esta rosa es para María.",
+      "en": "This rose is for Mary."
+    }
+  },
+  "mystery": {
+    "id": "annunciation",
+    "title": { "es": "La Anunciación", "en": "The Annunciation" },
+    "scene": "scene_annunciation_01",
+    "voice": "mystery_annunciation",
+    "interaction": "flower_to_mary"
+  },
+  "decade": [
+    { "prayer": "sign", "interaction": "listen_only", "voice": "sign_of_cross" },
+    { "prayer": "our_father", "interaction": "echo_phrase", "voice": "our_father" },
+    { "prayer": "hail_mary", "interaction": "tap_star", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "flower_to_mary", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "listen_only", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "light_candle", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "tap_heart", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "listen_only", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "follow_path", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "flower_to_mary", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "tap_star", "voice": "hail_mary" },
+    { "prayer": "hail_mary", "interaction": "observe_scene", "voice": "hail_mary" },
+    { "prayer": "glory", "interaction": "listen_only", "voice": "glory" }
+  ]
+}
