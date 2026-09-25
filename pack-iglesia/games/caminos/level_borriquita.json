@@ -21,15 +21,15 @@
     { "x": 500, "y": 210, "kind": "coin" },
     { "x": 620, "y": 210, "kind": "coin" },
     { "x": 1800, "y": 210, "kind": "coin" },
-    { "x": 2700, "y": 328, "kind": "coin", "choiceSetId": "b1" },
-    { "x": 2800, "y": 328, "kind": "coin", "choiceSetId": "b1" },
+    { "x": 2700, "y": 300, "kind": "coin", "choiceSetId": "b1" },
+    { "x": 2800, "y": 300, "kind": "coin", "choiceSetId": "b1" },
     { "x": 2700, "y": 210, "kind": "diamond1", "choiceSetId": "b1" },
     { "x": 4000, "y": 210, "kind": "coin" },
-    { "x": 5200, "y": 328, "kind": "diamond1", "choiceSetId": "b2" },
+    { "x": 5200, "y": 300, "kind": "diamond1", "choiceSetId": "b2" },
     { "x": 5200, "y": 210, "kind": "coin", "choiceSetId": "b2" },
     { "x": 5300, "y": 210, "kind": "coin", "choiceSetId": "b2" },
-    { "x": 6800, "y": 328, "kind": "coin", "choiceSetId": "b3" },
-    { "x": 6900, "y": 328, "kind": "coin", "choiceSetId": "b3" },
+    { "x": 6800, "y": 300, "kind": "coin", "choiceSetId": "b3" },
+    { "x": 6900, "y": 300, "kind": "coin", "choiceSetId": "b3" },
     { "x": 6800, "y": 210, "kind": "diamond1", "choiceSetId": "b3" },
     { "x": 8200, "y": 210, "kind": "coin" },
     { "x": 8600, "y": 210, "kind": "diamond1" }
@@ -55,9 +55,9 @@
     { "type": "roman", "x": 8400, "y": 186, "patrol": 70, "minAge": 6 }
   ],
   "platforms": [
-    { "x": 2640, "y": 286, "width": 220, "height": 22 },
-    { "x": 5140, "y": 286, "width": 160, "height": 22 },
-    { "x": 6740, "y": 286, "width": 220, "height": 22 }
+    { "x": 2640, "y": 246, "width": 220, "height": 22 },
+    { "x": 5140, "y": 246, "width": 160, "height": 22 },
+    { "x": 6740, "y": 246, "width": 220, "height": 22 }
   ],
   "npcs": [
     { "id": "g1", "type": "greeter", "x": 900 },

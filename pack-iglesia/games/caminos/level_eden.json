@@ -23,9 +23,9 @@
     { "x": 620, "y": 210, "kind": "coin" },
     { "x": 980, "y": 210, "kind": "coin" },
     { "x": 1420, "y": 210, "kind": "coin" },
-    { "x": 2480, "y": 328, "kind": "coin", "choiceSetId": "e1" },
-    { "x": 2580, "y": 328, "kind": "coin", "choiceSetId": "e1" },
-    { "x": 2680, "y": 328, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2480, "y": 300, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2580, "y": 300, "kind": "coin", "choiceSetId": "e1" },
+    { "x": 2680, "y": 300, "kind": "coin", "choiceSetId": "e1" },
     { "x": 2480, "y": 210, "kind": "coin", "choiceSetId": "e1" },
     { "x": 2580, "y": 210, "kind": "coin", "choiceSetId": "e1" },
     { "x": 3360, "y": 210, "kind": "diamond1" },
@@ -60,7 +60,7 @@
     { "type": "apple_snake", "x": 4320, "y": 186, "patrol": 100, "minAge": 5 }
   ],
   "platforms": [
-    { "x": 2420, "y": 286, "width": 300, "height": 22 }
+    { "x": 2420, "y": 246, "width": 300, "height": 22 }
   ],
   "decorations": [
     { "kind": "flower", "x": 300, "y": 160 },

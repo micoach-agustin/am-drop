@@ -1,61 +1,216 @@
 {
   "packId": "pack-iglesia",
-  "version": 9,
+  "version": 10,
   "code": "IGLESIA",
-  "title": { "es": "Iglesia", "en": "Church" },
+  "title": {
+    "es": "Iglesia",
+    "en": "Church"
+  },
   "games": [
     {
       "id": "vices",
       "engine": "highcard",
-      "title": { "es": "Elige a Jesús", "en": "Choose Jesus" },
-      "badge": { "es": "7 turnos", "en": "7 turns" },
+      "title": {
+        "es": "Elige a Jesús",
+        "en": "Choose Jesus"
+      },
+      "badge": {
+        "es": "7 turnos",
+        "en": "7 turns"
+      },
       "thumbnail": "thumb_vices_01",
-      "howTo": { "es": "Toca a Jesús", "en": "Tap Jesus" },
+      "howTo": {
+        "es": "Toca a Jesús",
+        "en": "Tap Jesus"
+      },
       "accent": "#6FA7C4",
       "vices": [
-        { "id": "pride", "art": "card_vice_pride_01", "title": { "es": "Soberbia", "en": "Pride" } },
-        { "id": "greed", "art": "card_vice_greed_01", "title": { "es": "Avaricia", "en": "Greed" } },
-        { "id": "whim", "art": "card_vice_whim_01", "title": { "es": "Capricho", "en": "Whim" } },
-        { "id": "wrath", "art": "card_vice_wrath_01", "title": { "es": "Ira", "en": "Wrath" } },
-        { "id": "gluttony", "art": "card_vice_gluttony_01", "title": { "es": "Gula", "en": "Gluttony" } },
-        { "id": "envy", "art": "card_vice_envy_01", "title": { "es": "Envidia", "en": "Envy" } },
-        { "id": "sloth", "art": "card_vice_sloth_01", "title": { "es": "Pereza", "en": "Sloth" } }
+        {
+          "id": "pride",
+          "art": "card_vice_pride_01",
+          "title": {
+            "es": "Soberbia",
+            "en": "Pride"
+          }
+        },
+        {
+          "id": "greed",
+          "art": "card_vice_greed_01",
+          "title": {
+            "es": "Avaricia",
+            "en": "Greed"
+          }
+        },
+        {
+          "id": "whim",
+          "art": "card_vice_whim_01",
+          "title": {
+            "es": "Capricho",
+            "en": "Whim"
+          }
+        },
+        {
+          "id": "wrath",
+          "art": "card_vice_wrath_01",
+          "title": {
+            "es": "Ira",
+            "en": "Wrath"
+          }
+        },
+        {
+          "id": "gluttony",
+          "art": "card_vice_gluttony_01",
+          "title": {
+            "es": "Gula",
+            "en": "Gluttony"
+          }
+        },
+        {
+          "id": "envy",
+          "art": "card_vice_envy_01",
+          "title": {
+            "es": "Envidia",
+            "en": "Envy"
+          }
+        },
+        {
+          "id": "sloth",
+          "art": "card_vice_sloth_01",
+          "title": {
+            "es": "Pereza",
+            "en": "Sloth"
+          }
+        }
       ],
       "virtues": [
-        { "id": "humility", "art": "card_jesus_humility_01", "title": { "es": "Humildad", "en": "Humility" } },
-        { "id": "generosity", "art": "card_jesus_generosity_01", "title": { "es": "Generosidad", "en": "Generosity" } },
-        { "id": "tenderness", "art": "card_jesus_tenderness_01", "title": { "es": "Ternura", "en": "Tenderness" } },
-        { "id": "peace", "art": "card_jesus_peace_01", "title": { "es": "Paz", "en": "Peace" } },
-        { "id": "share", "art": "card_jesus_share_01", "title": { "es": "Comparte", "en": "Share" } },
-        { "id": "kindness", "art": "card_jesus_kindness_01", "title": { "es": "Bondad", "en": "Kindness" } },
-        { "id": "help", "art": "card_jesus_help_01", "title": { "es": "Ayuda", "en": "Help" } }
+        {
+          "id": "humility",
+          "art": "card_jesus_humility_01",
+          "title": {
+            "es": "Humildad",
+            "en": "Humility"
+          }
+        },
+        {
+          "id": "generosity",
+          "art": "card_jesus_generosity_01",
+          "title": {
+            "es": "Generosidad",
+            "en": "Generosity"
+          }
+        },
+        {
+          "id": "tenderness",
+          "art": "card_jesus_tenderness_01",
+          "title": {
+            "es": "Ternura",
+            "en": "Tenderness"
+          }
+        },
+        {
+          "id": "peace",
+          "art": "card_jesus_peace_01",
+          "title": {
+            "es": "Paz",
+            "en": "Peace"
+          }
+        },
+        {
+          "id": "share",
+          "art": "card_jesus_share_01",
+          "title": {
+            "es": "Comparte",
+            "en": "Share"
+          }
+        },
+        {
+          "id": "kindness",
+          "art": "card_jesus_kindness_01",
+          "title": {
+            "es": "Bondad",
+            "en": "Kindness"
+          }
+        },
+        {
+          "id": "help",
+          "art": "card_jesus_help_01",
+          "title": {
+            "es": "Ayuda",
+            "en": "Help"
+          }
+        }
       ]
     },
     {
       "id": "rosary",
       "engine": "rosary",
-      "title": { "es": "Mi pequeño Rosario", "en": "My Little Rosary" },
-      "badge": { "es": "Una decena", "en": "One decade" },
+      "title": {
+        "es": "Mi pequeño Rosario",
+        "en": "My Little Rosary"
+      },
+      "badge": {
+        "es": "Una decena",
+        "en": "One decade"
+      },
       "thumbnail": "thumb_rosary_01",
-      "howTo": { "es": "Llévalo a la bolita", "en": "Take it to the bead" },
+      "howTo": {
+        "es": "Llévalo a la bolita",
+        "en": "Take it to the bead"
+      },
       "accent": "#B9AED8"
     },
     {
       "id": "caminos",
       "engine": "arcade",
-      "title": { "es": "Caminos", "en": "Paths" },
-      "badge": { "es": "5 historias", "en": "5 stories" },
+      "title": {
+        "es": "Caminos",
+        "en": "Paths"
+      },
+      "badge": {
+        "es": "5 historias",
+        "en": "5 stories"
+      },
       "thumbnail": "thumb_caminos_01",
-      "howTo": { "es": "Elige y corre", "en": "Pick and run" },
+      "howTo": {
+        "es": "Elige y corre",
+        "en": "Pick and run"
+      },
       "accent": "#6FA7C4"
     },
     {
       "id": "taller",
       "engine": "taller",
-      "title": { "es": "El taller de José", "en": "Joseph's Workshop" },
-      "badge": { "es": "silla y mesa", "en": "chair and table" },
+      "title": {
+        "es": "El taller de José",
+        "en": "Joseph's Workshop"
+      },
+      "badge": {
+        "es": "silla y mesa",
+        "en": "chair and table"
+      },
       "thumbnail": "thumb_taller_01",
-      "howTo": { "es": "Mete el tronco", "en": "Put the log in" },
+      "howTo": {
+        "es": "Mete el tronco",
+        "en": "Put the log in"
+      },
+      "accent": "#E9D5AE"
+    },
+    {
+      "id": "church",
+      "engine": "church",
+      "title": {
+        "es": "Iglesia",
+        "en": "Church"
+      },
+      "badge": {
+        "es": "rompecabezas",
+        "en": "puzzle"
+      },
+      "thumbnail": "thumb_church_01",
+      "howTo": {
+        "es": "Pon las piezas. Si quieres, cámbialas",
+        "en": "Place the pieces. Swap if you want"
+      },
       "accent": "#E9D5AE"
     }
   ]

@@ -3,7 +3,7 @@
     {
       "code": "IGLESIA",
       "packId": "pack-iglesia",
-      "version": 9,
+      "version": 10,
       "base": "https://raw.githubusercontent.com/micoach-agustin/am-drop/main/pack-iglesia/",
       "files": [
         "manifest.json",
@@ -43,6 +43,9 @@
         "art/cards/card_vice_sloth_01.png",
         "art/cards/card_vice_whim_01.png",
         "art/cards/card_vice_wrath_01.png",
+        "art/church/church_notredame_done_03.png",
+        "art/church/church_sacrecoeur_done_02.png",
+        "art/church/church_sagrada_done_01.png",
         "art/eden/adam_idle_01.png",
         "art/eden/adam_portrait_01.png",
         "art/eden/adam_run_01.png",
@@ -115,6 +118,7 @@
         "art/thumbs/thumb_belen_01.png",
         "art/thumbs/thumb_borriquita_01.png",
         "art/thumbs/thumb_caminos_01.png",
+        "art/thumbs/thumb_church_01.png",
         "art/thumbs/thumb_eden_01.png",
         "art/thumbs/thumb_jose_01.png",
         "art/thumbs/thumb_rosary_01.png",

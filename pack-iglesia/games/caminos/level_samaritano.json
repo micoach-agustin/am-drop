@@ -32,8 +32,17 @@
     { "x": 5780, "y": 210, "kind": "coin" },
     { "x": 6400, "y": 210, "kind": "diamond1" },
     { "x": 7200, "y": 210, "kind": "coin" },
+    { "x": 5520, "y": 210, "kind": "coin" },
+    { "x": 5900, "y": 210, "kind": "diamond1" },
+    { "x": 6800, "y": 210, "kind": "coin" },
+    { "x": 7020, "y": 210, "kind": "coin" },
+    { "x": 7520, "y": 210, "kind": "diamond1" },
+    { "x": 7980, "y": 210, "kind": "coin" },
     { "x": 8400, "y": 210, "kind": "coin" },
-    { "x": 9600, "y": 210, "kind": "diamond1" }
+    { "x": 8720, "y": 210, "kind": "coin" },
+    { "x": 9200, "y": 210, "kind": "diamond1" },
+    { "x": 9600, "y": 210, "kind": "diamond1" },
+    { "x": 9920, "y": 210, "kind": "coin" }
   ],
   "coinArcs": [{ "x": 3000, "y": 246, "width": 80, "count": 3 }],
   "gaps": [
