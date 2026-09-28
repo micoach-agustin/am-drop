@@ -17,7 +17,7 @@
   "inventory": { "water": 5, "bread": 5, "coin": 5 },
   "goalBonus": { "coins": 100, "gems": 25, "ifPerfect": true },
   "playerStart": { "x": 160, "y": 210 },
-  "goal": { "x": 10500, "y": 160, "width": 300, "height": 240, "art": "castle_samaritan_01" },
+  "goal": { "x": 10500, "y": 160, "width": 300, "height": 240, "art": "castle_samaritan_01", "focus": { "holdSec": 1.6, "zoom": 1.32 } },
   "checkpoints": [{ "id": "cp1", "x": 5000, "y": 190 }],
   "coins": [
     { "x": 380, "y": 210, "kind": "coin" },

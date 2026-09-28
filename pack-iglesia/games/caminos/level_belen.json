@@ -19,7 +19,22 @@
   "projectileKind": "default",
   "playerArt": "magus_run_01",
   "playerStart": { "x": 160, "y": 210 },
-  "goal": { "x": 7880, "y": 160, "width": 260, "height": 220, "art": "inn_bethlehem_01" },
+  "goal": {
+    "x": 7880,
+    "y": 160,
+    "width": 260,
+    "height": 220,
+    "art": "inn_bethlehem_01",
+    "focus": {
+      "art": "nativity_group_01",
+      "holdSec": 2.4,
+      "zoom": 1.55,
+      "width": 220,
+      "height": 160,
+      "offsetX": 48,
+      "offsetY": 62
+    }
+  },
   "checkpoints": [
     { "id": "cp1", "x": 3600, "y": 190 },
     { "id": "cp2", "x": 6000, "y": 190 }

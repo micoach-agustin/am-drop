@@ -1,0 +1,58 @@
+{
+  "id": "level_parable_loaves",
+  "name": "Panes y peces",
+  "theme": "parable_loaves",
+  "targetDurationSec": 75,
+  "worldWidth": 7800,
+  "groundY": 160,
+  "groundTile": "tile_ground_grass_01",
+  "pitTile": "tile_pit_water_01",
+  "background": "bg_parable_loaves_02",
+  "hudIcon": "item_bread_bite_01",
+  "hudMode": "mixed",
+  "nextLevelId": "level_parable_sheep",
+  "starThresholds": [8, 14],
+  "playerArt": "adam_run_01",
+  "playerStart": { "x": 160, "y": 210 },
+  "goal": {
+    "x": 7000,
+    "y": 160,
+    "width": 380,
+    "height": 320,
+    "art": "jesus_crowd_01",
+    "focus": { "holdSec": 2.8, "zoom": 1.46 }
+  },
+  "checkpoints": [{ "id": "cp1", "x": 3800, "y": 190 }],
+  "coins": [
+    { "x": 400, "y": 210, "kind": "bread" },
+    { "x": 560, "y": 210, "kind": "fish" },
+    { "x": 820, "y": 210, "kind": "bread" },
+    { "x": 1400, "y": 210, "kind": "fish" },
+    { "x": 1980, "y": 260, "kind": "bread" },
+    { "x": 2600, "y": 210, "kind": "fish" },
+    { "x": 3300, "y": 210, "kind": "bread" },
+    { "x": 4000, "y": 210, "kind": "fish" },
+    { "x": 4700, "y": 210, "kind": "bread" },
+    { "x": 5400, "y": 210, "kind": "fish" },
+    { "x": 6000, "y": 210, "kind": "bread" },
+    { "x": 6500, "y": 210, "kind": "fish" }
+  ],
+  "gaps": [
+    { "x": 2200, "width": 110, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" },
+    { "x": 5100, "width": 110, "respawn": "cp1", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
+  ],
+  "rewardBoxes": [],
+  "enemies": [
+    { "type": "roman", "x": 2900, "y": 186, "patrol": 130 },
+    { "type": "roman", "x": 4500, "y": 186, "patrol": 120, "minAge": 4 }
+  ],
+  "platforms": [
+    { "x": 1860, "y": 236, "width": 150, "height": 22 }
+  ],
+  "ageModifiers": {
+    "3": { "playerSpeedMultiplier": 0.9, "enemySpeedMultiplier": 0.8, "gapWidthMultiplier": 0.85 },
+    "4": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0 },
+    "5": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.0 },
+    "6": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.05 }
+  }
+}

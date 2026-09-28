@@ -14,7 +14,7 @@
   "projectileKind": "flower",
   "playerArt": "jesus_donkey_run_01",
   "playerStart": { "x": 160, "y": 210 },
-  "goal": { "x": 9000, "y": 160, "width": 320, "height": 260, "art": "jerusalem_gate_01" },
+  "goal": { "x": 9000, "y": 160, "width": 320, "height": 260, "art": "jerusalem_gate_01", "focus": { "holdSec": 1.6, "zoom": 1.34 } },
   "checkpoints": [{ "id": "cp1", "x": 3600, "y": 190 }],
   "coins": [
     { "x": 380, "y": 210, "kind": "coin" },

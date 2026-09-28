@@ -1,6 +1,6 @@
 {
   "packId": "pack-iglesia",
-  "version": 10,
+  "version": 11,
   "code": "IGLESIA",
   "title": {
     "es": "Iglesia",
@@ -178,6 +178,24 @@
       "accent": "#6FA7C4"
     },
     {
+      "id": "parables",
+      "engine": "arcade",
+      "title": {
+        "es": "Parábolas",
+        "en": "Parables"
+      },
+      "badge": {
+        "es": "5 parábolas",
+        "en": "5 parables"
+      },
+      "thumbnail": "thumb_parables_01",
+      "howTo": {
+        "es": "Elige y corre",
+        "en": "Pick and run"
+      },
+      "accent": "#9CCB8F"
+    },
+    {
       "id": "taller",
       "engine": "taller",
       "title": {
@@ -199,8 +217,8 @@
       "id": "church",
       "engine": "church",
       "title": {
-        "es": "Iglesia",
-        "en": "Church"
+        "es": "Rompecabezas",
+        "en": "Puzzle"
       },
       "badge": {
         "es": "rompecabezas",

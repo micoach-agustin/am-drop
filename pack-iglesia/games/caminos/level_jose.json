@@ -17,7 +17,7 @@
   "projectileKind": "none",
   "playerArt": "joseph_run_01",
   "playerStart": { "x": 160, "y": 210 },
-  "goal": { "x": 9000, "y": 160, "width": 280, "height": 240, "art": "granary_01" },
+  "goal": { "x": 9000, "y": 160, "width": 280, "height": 240, "art": "granary_01", "focus": { "holdSec": 1.5, "zoom": 1.32 } },
   "checkpoints": [{ "id": "cp1", "x": 5200, "y": 190 }],
   "coins": [
     { "x": 380, "y": 210, "kind": "maize" },

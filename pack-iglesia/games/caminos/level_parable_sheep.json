@@ -1,0 +1,61 @@
+{
+  "id": "level_parable_sheep",
+  "name": "Ovejas perdidas",
+  "theme": "parable_sheep",
+  "targetDurationSec": 85,
+  "worldWidth": 8600,
+  "groundY": 160,
+  "groundTile": "tile_ground_grass_01",
+  "pitTile": "tile_pit_water_01",
+  "background": "bg_parable_sheep_02",
+  "hudIcon": "npc_sheep_01",
+  "starThresholds": [6, 10],
+  "projectileKind": "none",
+  "playerArt": "shepherd_pastor_01",
+  "playerStart": { "x": 160, "y": 210 },
+  "goal": {
+    "x": 7900,
+    "y": 160,
+    "width": 260,
+    "height": 220,
+    "art": "fold_gate_01",
+    "focus": { "art": "fold_gate_01", "holdSec": 2.8, "zoom": 1.46, "width": 240, "height": 170, "offsetX": 16, "offsetY": 40 }
+  },
+  "checkpoints": [{ "id": "cp1", "x": 4000, "y": 190 }],
+  "coins": [
+    { "x": 420, "y": 210, "kind": "sheep" },
+    { "x": 820, "y": 210, "kind": "sheep" },
+    { "x": 1500, "y": 210, "kind": "sheep" },
+    { "x": 2200, "y": 210, "kind": "sheep" },
+    { "x": 3400, "y": 210, "kind": "sheep" },
+    { "x": 4100, "y": 210, "kind": "sheep" },
+    { "x": 5200, "y": 210, "kind": "sheep" },
+    { "x": 6000, "y": 210, "kind": "sheep" },
+    { "x": 7120, "y": 348, "kind": "sheep" }
+  ],
+  "gaps": [
+    { "x": 1800, "width": 110, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "prop_bridge_01" },
+    { "x": 4800, "width": 118, "respawn": "cp1", "bridgeMaxAge": 3, "bridgeArt": "prop_bridge_01" }
+  ],
+  "rewardBoxes": [],
+  "enemies": [
+    { "type": "wolf", "x": 2800, "y": 186, "patrol": 120 },
+    { "type": "wolf", "x": 5400, "y": 186, "patrol": 110, "minAge": 4 }
+  ],
+  "platforms": [
+    { "x": 2620, "y": 250, "width": 320, "height": 22 },
+    { "x": 5240, "y": 250, "width": 320, "height": 22 },
+    { "x": 6980, "y": 300, "width": 340, "height": 22 }
+  ],
+  "decorations": [
+    { "kind": "bush", "x": 1200, "y": 168 },
+    { "kind": "bush", "x": 3600, "y": 168 },
+    { "kind": "ladder", "x": 6970, "y": 168 }
+  ],
+  "ageModifiers": {
+    "3": { "playerSpeedMultiplier": 0.9, "enemySpeedMultiplier": 0.8, "gapWidthMultiplier": 0.85 },
+    "4": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0 },
+    "5": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.0 },
+    "6": { "playerSpeedMultiplier": 1.0, "enemySpeedMultiplier": 1.05, "gapWidthMultiplier": 1.05 }
+  }
+}

@@ -15,7 +15,7 @@
   "projectileKind": "default",
   "playerArt": "adam_run_01",
   "playerStart": { "x": 160, "y": 210 },
-  "goal": { "x": 5200, "y": 160, "width": 280, "height": 260, "art": "tree_eden_01" },
+  "goal": { "x": 5200, "y": 160, "width": 280, "height": 260, "art": "tree_eden_01", "focus": { "holdSec": 1.6, "zoom": 1.38 } },
   "checkpoints": [{ "id": "cp1", "x": 3180, "y": 190 }],
   "coins": [
     { "x": 380, "y": 210, "kind": "coin" },

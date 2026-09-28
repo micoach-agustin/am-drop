@@ -1,0 +1,64 @@
+{
+  "id": "level_parable_sower",
+  "name": "El sembrador",
+  "theme": "parable_sower",
+  "targetDurationSec": 80,
+  "worldWidth": 9000,
+  "groundY": 160,
+  "groundTile": "tile_ground_grass_01",
+  "pitTile": "tile_pit_water_01",
+  "background": "bg_parable_sower_02",
+  "hudIcon": "item_seed_bag_01",
+  "nextLevelId": "level_parable_prodigal",
+  "starThresholds": [8, 14],
+  "starRule": "helps",
+  "projectileKind": "none",
+  "inventory": { "crumbs": 5, "broom": 5, "seed": 5 },
+  "playerArt": "joseph_run_01",
+  "playerStart": { "x": 160, "y": 210 },
+  "goal": {
+    "x": 8200,
+    "y": 160,
+    "width": 240,
+    "height": 180,
+    "art": "zone_sower_soil_01",
+    "focus": { "art": "zone_sower_soil_01", "holdSec": 2.0, "zoom": 1.42, "width": 260, "height": 120, "offsetX": 10, "offsetY": 20 }
+  },
+  "checkpoints": [{ "id": "cp1", "x": 4300, "y": 190 }],
+  "coins": [],
+  "gaps": [
+    { "x": 2400, "width": 100, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" },
+    { "x": 6100, "width": 100, "respawn": "cp1", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
+  ],
+  "rewardBoxes": [],
+  "enemies": [],
+  "platforms": [],
+  "decorations": [
+    { "kind": "sowerPath", "x": 900, "y": 168 },
+    { "kind": "sowerRocks", "x": 1600, "y": 168 },
+    { "kind": "sowerSoil", "x": 3100, "y": 168 },
+    { "kind": "sowerPath", "x": 3800, "y": 168 },
+    { "kind": "sowerRocks", "x": 5000, "y": 168 },
+    { "kind": "sowerSoil", "x": 5600, "y": 168 },
+    { "kind": "sowerPath", "x": 6800, "y": 168 },
+    { "kind": "sowerRocks", "x": 7300, "y": 168 },
+    { "kind": "sowerSoil", "x": 7800, "y": 168 }
+  ],
+  "npcs": [
+    { "id": "path-1", "type": "sowerPath", "need": "crumbs", "x": 900 },
+    { "id": "rocks-1", "type": "sowerRocks", "need": "broom", "x": 1600 },
+    { "id": "soil-1", "type": "sowerSoil", "need": "seed", "x": 3100 },
+    { "id": "path-2", "type": "sowerPath", "need": "crumbs", "x": 3800 },
+    { "id": "rocks-2", "type": "sowerRocks", "need": "broom", "x": 5000 },
+    { "id": "soil-2", "type": "sowerSoil", "need": "seed", "x": 5600 },
+    { "id": "path-3", "type": "sowerPath", "need": "crumbs", "x": 6800 },
+    { "id": "rocks-3", "type": "sowerRocks", "need": "broom", "x": 7300 },
+    { "id": "soil-3", "type": "sowerSoil", "need": "seed", "x": 7800 }
+  ],
+  "ageModifiers": {
+    "3": { "playerSpeedMultiplier": 0.9, "gapWidthMultiplier": 0.85 },
+    "4": { "playerSpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0 },
+    "5": { "playerSpeedMultiplier": 1.0, "gapWidthMultiplier": 1.0 },
+    "6": { "playerSpeedMultiplier": 1.0, "gapWidthMultiplier": 1.05 }
+  }
+}
