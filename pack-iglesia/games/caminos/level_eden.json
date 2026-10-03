@@ -43,7 +43,7 @@
     { "x": 4490, "width": 110, "respawn": "cp1", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
   ],
   "signs": [
-    { "x": 2220, "upper": "coin", "lower": "coin" }
+    { "x": 2220, "upper": "coin3", "lower": "coin2" }
   ],
   "rewardBoxes": [
     { "x": 1960, "y": 292, "reward": "coins3" }

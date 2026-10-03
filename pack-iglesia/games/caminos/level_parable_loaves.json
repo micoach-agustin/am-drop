@@ -17,10 +17,10 @@
   "goal": {
     "x": 7000,
     "y": 160,
-    "width": 380,
-    "height": 320,
+    "width": 480,
+    "height": 420,
     "art": "jesus_crowd_01",
-    "focus": { "holdSec": 2.8, "zoom": 1.46 }
+    "focus": { "holdSec": 3.4, "zoom": 1.46 }
   },
   "checkpoints": [{ "id": "cp1", "x": 3800, "y": 190 }],
   "coins": [

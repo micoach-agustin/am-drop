@@ -27,12 +27,12 @@
     "art": "inn_bethlehem_01",
     "focus": {
       "art": "nativity_group_01",
-      "holdSec": 2.4,
-      "zoom": 1.55,
-      "width": 220,
-      "height": 160,
-      "offsetX": 48,
-      "offsetY": 62
+      "holdSec": 3.2,
+      "zoom": 1.62,
+      "width": 440,
+      "height": 340,
+      "offsetX": 0,
+      "offsetY": 8
     }
   },
   "checkpoints": [
@@ -75,8 +75,8 @@
     { "x": 7350, "width": 120, "respawn": "cp2", "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
   ],
   "signs": [
-    { "x": 2100, "upper": "coin", "lower": "coin" },
-    { "x": 3920, "upper": "diamond1", "lower": "coin" }
+    { "x": 2100, "upper": "coin3", "lower": "coin1" },
+    { "x": 3920, "upper": "diamond1", "lower": "coin2" }
   ],
   "rewardBoxes": [
     { "x": 1680, "y": 292, "reward": "gold", "art": "magi_box_01" },

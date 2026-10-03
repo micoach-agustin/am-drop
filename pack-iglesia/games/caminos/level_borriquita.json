@@ -39,7 +39,7 @@
     { "x": 7400, "width": 108, "respawn": "cp1", "minAge": 4, "bridgeMaxAge": 3, "bridgeArt": "bridge_wood_01" }
   ],
   "signs": [
-    { "x": 2320, "upper": "coin", "lower": "roman" },
+    { "x": 2320, "upper": "coin2", "lower": "roman" },
     { "x": 4840, "upper": "diamond1", "lower": "greeter" },
     { "x": 6440, "upper": "greeter", "lower": "roman" }
   ],

@@ -31,7 +31,7 @@
     { "x": 4100, "y": 210, "kind": "sheep" },
     { "x": 5200, "y": 210, "kind": "sheep" },
     { "x": 6000, "y": 210, "kind": "sheep" },
-    { "x": 7120, "y": 348, "kind": "sheep" }
+    { "x": 7120, "y": 322, "kind": "sheep" }
   ],
   "gaps": [
     { "x": 1800, "width": 110, "respawn": "start", "bridgeMaxAge": 3, "bridgeArt": "prop_bridge_01" },
@@ -50,7 +50,9 @@
   "decorations": [
     { "kind": "bush", "x": 1200, "y": 168 },
     { "kind": "bush", "x": 3600, "y": 168 },
-    { "kind": "ladder", "x": 6970, "y": 168 }
+    { "kind": "ladder", "x": 6970, "y": 168 },
+    { "kind": "bush", "x": 7000, "y": 322 },
+    { "kind": "bush", "x": 7260, "y": 322 }
   ],
   "ageModifiers": {
     "3": { "playerSpeedMultiplier": 0.9, "enemySpeedMultiplier": 0.8, "gapWidthMultiplier": 0.85 },

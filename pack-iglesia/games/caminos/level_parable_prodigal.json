@@ -11,15 +11,16 @@
   "hudIcon": "item_heart_sign_01",
   "nextLevelId": "level_parable_loaves",
   "starThresholds": [6, 10],
-  "playerArt": "magus_run_01",
+  "playerArt": "joseph_run_01",
   "playerStart": { "x": 160, "y": 210 },
+  "projectileKind": "default",
   "goal": {
     "x": 7350,
     "y": 160,
-    "width": 420,
-    "height": 360,
+    "width": 560,
+    "height": 480,
     "art": "house_on_rock_01",
-    "focus": { "art": "dad_embrace_01", "holdSec": 3.4, "zoom": 1.48, "width": 220, "height": 280, "offsetX": 0, "offsetY": 8 }
+    "focus": { "art": "dad_embrace_01", "holdSec": 3.4, "zoom": 1.48, "width": 240, "height": 300, "offsetX": -40, "offsetY": 12 }
   },
   "checkpoints": [{ "id": "cp1", "x": 3800, "y": 190 }],
   "coins": [
@@ -42,9 +43,9 @@
   "enemies": [
     { "type": "roman", "x": 1600, "y": 186, "patrol": 80 },
     { "type": "roman", "x": 2900, "y": 186, "patrol": 90 },
-    { "type": "roman", "x": 4100, "y": 186, "patrol": 80, "minAge": 4 },
-    { "type": "roman", "x": 5400, "y": 186, "patrol": 90, "minAge": 4 },
-    { "type": "roman", "x": 6500, "y": 186, "patrol": 70, "minAge": 5 }
+    { "type": "roman", "x": 4100, "y": 186, "patrol": 80 },
+    { "type": "roman", "x": 5400, "y": 186, "patrol": 90 },
+    { "type": "roman", "x": 6500, "y": 186, "patrol": 70 }
   ],
   "platforms": [
     { "x": 1480, "y": 250, "width": 190, "height": 22 },
